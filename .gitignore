@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/dpapi_test
+/dpapi_test/bin/Debug/net8.0
+/dpapi_test/obj/Debug/net8.0
+/dpapi_test/obj
+/dpapi_test/dpapi_test.csproj.user
+/dpapi_test/dpapi_test.csproj.Backup.tmp
