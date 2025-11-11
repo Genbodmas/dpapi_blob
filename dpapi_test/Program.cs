@@ -8,13 +8,11 @@ builder.Services.AddSingleton<IKeyStore, DpapiKeyStore>();
 
 builder.Services.AddControllers();
 
-// swagger services
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-// swagger middleware
 app.UseSwagger();
 app.UseSwaggerUI(c =>
 {
